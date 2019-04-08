@@ -38,18 +38,22 @@ Please cite our paper with the following bibtex if you use our face renderer:
 
 ``` latex
 @inproceedings{mathai2019doesgenerative,
-  title={Does Generative Face Completion Help Face Recognition?},
+  title={{D}oes {G}enerative {F}ace {C}ompletion {H}elp {F}ace {R}ecognition?},
   author={Mathai, Joe and Masi, Iacopo and Abd-Almageed, Wael},
-  booktitle={International Conference on Biometrics (ICB)},
+  booktitle={IAPR International Conference on Biometrics (ICB)},
   year={2019},
 }
 ```
+
+## License and Disclaimer
+Please, see [the LICENSE here](LICENSE.txt)
 
 ## References
 
 [1] J. Mathai*, I. Masi*, W. AbdAlmageed, "Does Generative Face Completion help Face Recognition? ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019
 
     \* denotes equal authorship
+    
 ## Changelog
 - April 2019, First  Release 
 
