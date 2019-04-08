@@ -4,7 +4,7 @@
 
 This page contains the code along pre-trained model for solving the face completion task aka face inpainting following the method mentioned in _J. Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
 
-![Teaser](#)
+![Teaser](https://i.imgur.com/Pv0W9mb.png)
 
 
 ## Features
