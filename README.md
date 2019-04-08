@@ -2,24 +2,24 @@
 
 ### Encoder-Decoder for Face Completion based on Gated Convolution
 
-This page contains the code along pre-trained model for solving the face completion task aka face inpainting following the method mentioned in _J. Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
+This page contains the code along with pre-trained models for solving the face completion task, aka face inpainting, following the method mentioned in _J. Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
+
 
 ![Teaser](https://i.imgur.com/Pv0W9mb.png)
 
 
 ## Features
 * **Encoder-Decoder** for face completion.
-* ...
+* Single forward pass to get the completed face
+* The user can input the part to be completed, the model uses this mask with a gating mechanism
 
 ## Dependencies
 
-* [Pytorch](http://pytorch.net/)
+* [Pytorch](https://pytorch.org)
 * [Numpy](http://www.numpy.org/)
 * [Python3.6](https://www.python.org/download/releases/3.6/)
 
 The code has been tested on Linux only. On Linux you can rely on the default version of python, installing all the packages needed from the package manager or on Anaconda Python and install required packages through `conda`. 
-
-**Importantly:** OpenGL or other 3D rendering libraries are **not** required to run this code.
 
 ## Usage
 
@@ -34,7 +34,7 @@ $ python demo.py <image-path>
 
 ## Citation
 
-Please cite our paper with the following bibtex if you use our face renderer:
+Please cite our paper with the following bibtex if you use our face inpainter:
 
 ``` latex
 @inproceedings{mathai2019doesgenerative,
