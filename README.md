@@ -52,7 +52,7 @@ Please, see [the LICENSE here](LICENSE.txt)
 
 [1] J. Mathai*, I. Masi*, W. AbdAlmageed, "Does Generative Face Completion help Face Recognition? ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019
 
-<sub>\* denotes equal authorship</sub>
+<sub>\* denotes equal contribution</sub>
     
 ## Changelog
 - April 2019, First  Release 
