@@ -2,7 +2,7 @@
 
 ### Encoder-Decoder for Face Completion based on Gated Convolution
 
-This page contains the code along pre-trained model for solving the face completion task aka face inpainting following the method mentioned in _J.Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
+This page contains the code along pre-trained model for solving the face completion task aka face inpainting following the method mentioned in _J. Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
 
 ![Teaser](#)
 
@@ -47,7 +47,8 @@ Please cite our paper with the following bibtex if you use our face renderer:
 
 ## References
 
-[1] I. Masi\*, A. Tran\*, T. Hassner\*, J. Leksut, G. Medioni, "Do We Really Need to Collect Million of Faces for Effective Face Recognition? ", ECCV 2016, 
+[1] J. Mathai*, I. Masi*, W. AbdAlmageed, "Does Generative Face Completion help Face Recognition? ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019
+
     \* denotes equal authorship
 ## Changelog
 - April 2019, First  Release 
