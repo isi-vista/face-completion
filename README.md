@@ -7,6 +7,8 @@ This page contains the code along with pre-trained models for solving the face c
 
 ![Teaser](https://i.imgur.com/Pv0W9mb.png)
 
+<sub>A realistically occluded face and its completed version by our face inpainter. We show the effect of face inpainting on the performance of a deep face recognition pipeline with occlusions. Note that we assume _no_ access to the recognition pipe. Our study aims to quantitatively assess (a) the impact of different synthetic yet realistic occlusions on recognition and  (b) how much face perception is restored via face inpainting.</sub>
+
 
 ## Features
 * **Encoder-Decoder** for face completion.
