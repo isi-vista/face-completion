@@ -1,6 +1,7 @@
 # Does Generative Face Completion Help Face Recognition?
+## _Coming soon_
 
-### Encoder-Decoder for Face Completion based on Gated Convolution
+### Encoder-Decoder for Face Completion based on Convolutions with a Gating Mechanism
 
 This page contains the code along with pre-trained models for solving the face completion task, aka face inpainting, following the method mentioned in _J. Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
 
