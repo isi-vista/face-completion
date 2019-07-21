@@ -53,7 +53,7 @@ Please, see [the LICENSE here](LICENSE.txt)
 <sub>\* denotes equal contribution</sub>
     
 ## Changelog
-- July 2019. Model definition updated
+- July 2019, Model definition updated
 - April 2019, First  Release 
 
 ## Contacts
