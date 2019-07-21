@@ -1,9 +1,8 @@
 # Does Generative Face Completion Help Face Recognition?
-## _Coming soon_
 
 ### Encoder-Decoder for Face Completion based on Convolutions with a Gating Mechanism
 
-This page contains the code along with pre-trained models for solving the face completion task, aka face inpainting, following the method mentioned in _J. Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
+This page contains the encoder-decoder model definition for learning the face completion task, aka face inpainting, following the method mentioned in _J. Mathai\*, I. Masi\*, W. AbdAlmageed, "[Does Generative Face Completion help Face Recognition?](#) ", in Proc. of IAPR International Conference on Biometrics (ICB) 2019 [1]_.
 
 
 ![Teaser](https://i.imgur.com/Pv0W9mb.png)
@@ -12,7 +11,10 @@ This page contains the code along with pre-trained models for solving the face c
 
 
 ## Features
-* **Encoder-Decoder** for face completion.
+* **Encoder-Decoder** for face completion. Multiple architecture are tested: 
+  - [Simple U-Net](models/conv_unet.py) with standard Convolution 
+  - U-Net with [partial Convolution](models/partialconv_unet.py)
+  - U-Net with soft, [gated Convolution](models/gated_unet.py)
 * Single forward pass to get the completed face
 * The user can input the part to be completed, the model uses this mask with a gating mechanism
 
@@ -33,6 +35,7 @@ $ python demo.py <image-path>
 ```
 
 ## Current Limitations
+Due to time constraints we have uploaded the model definition only. In the future, we could upload the trained model alogn with a decoding, testing script.
 
 
 ## Citation
@@ -58,6 +61,7 @@ Please, see [the LICENSE here](LICENSE.txt)
 <sub>\* denotes equal contribution</sub>
     
 ## Changelog
+- July 2019. Model definition updated
 - April 2019, First  Release 
 
 ## Contacts
