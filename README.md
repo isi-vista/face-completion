@@ -26,16 +26,8 @@ This page contains the encoder-decoder model definition for learning the face co
 
 The code has been tested on Linux only. On Linux you can rely on the default version of python, installing all the packages needed from the package manager or on Anaconda Python and install required packages through `conda`. 
 
-## Usage
-
-### Run it
-
-```bash
-$ python demo.py <image-path>
-```
-
 ## Current Limitations
-Due to time constraints we have uploaded the model definition only. In the future, we could upload the trained model alogn with a decoding, testing script.
+Due to time constraints we have uploaded the model definition only. In the future, we could upload the trained model along with a decoding, testing script.
 
 
 ## Citation
