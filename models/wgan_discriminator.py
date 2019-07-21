@@ -53,3 +53,6 @@ def calc_gradient_penalty(netD, real, fake, LAMBDA=10):
     gradient_penalty = ((gradients.norm(2, dim=1) -1) ** 2).mean() * LAMBDA
     return gradient_penalty
     
+    
+    
+            
